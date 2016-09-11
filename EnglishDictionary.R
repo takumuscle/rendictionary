@@ -1,4 +1,4 @@
-dictionary <- function(fname="word",path="/Users/takuma_m/DESKTOP",state="verb"){
+dictionary <- function(fname="word",path="初期設定の自分のフォルダのパス",state="verb"){
   #internal function
   enendic <- function(kword){  
     library("rjson")
